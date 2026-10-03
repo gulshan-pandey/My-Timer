@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Timer</string>
+    <string name="subtitle_seconds_per_day">Each day has %1$d seconds. This is what you have left until midnight.</string>
+    <string name="seconds_remaining_label">Seconds remaining today</string>
+    <string name="widget_name">My Timer countdown</string>
+    <string name="widget_description">Transparent countdown of seconds left in your day.</string>
+    <string name="widget_label">of %1$d sec today</string>
+    <string name="widget_hint">Add the home screen widget: long-press your wallpaper → Widgets → My Timer.\n\nThe sticky notification keeps the countdown visible in your status area after you open the app once.</string>
+    <string name="notification_channel_name">Day countdown</string>
+    <string name="notification_channel_description">Shows seconds remaining in the day</string>
+    <string name="notification_title">My Timer</string>
+    <string name="notification_subtext">Out of %1$d seconds today</string>
+</resources>

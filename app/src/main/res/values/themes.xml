@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.MyTimer" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">#4A7C6F</item>
+        <item name="colorPrimaryVariant">#3A6B5E</item>
+        <item name="colorOnPrimary">#E8E0D0</item>
+        <item name="colorSecondary">#C8A84B</item>
+        <item name="android:windowBackground">#4A7C6F</item>
+        <item name="android:statusBarColor">#4A7C6F</item>
+        <item name="android:navigationBarColor">#4A7C6F</item>
+    </style>
+</resources>

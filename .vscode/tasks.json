@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Android: assembleDebug",
+      "type": "shell",
+      "command": "${workspaceFolder}/gradlew.bat",
+      "args": [":app:assembleDebug"],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "Android: installDebug (USB phone)",
+      "type": "shell",
+      "command": "${workspaceFolder}/gradlew.bat",
+      "args": [":app:installDebug"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Android: unit tests",
+      "type": "shell",
+      "command": "${workspaceFolder}/gradlew.bat",
+      "args": [":app:testDebugUnitTest"],
+      "group": "test",
+      "problemMatcher": []
+    }
+  ]
+}

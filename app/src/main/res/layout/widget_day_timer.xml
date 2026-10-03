@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widgetRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    android:padding="12dp">
+
+    <!-- Raw seconds — each digit styled via SpannableString in code -->
+    <TextView
+        android:id="@+id/widgetSeconds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="86400"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-condensed"
+        android:letterSpacing="0.08"
+        android:shadowColor="#AA000000"
+        android:shadowDx="0"
+        android:shadowDy="2"
+        android:shadowRadius="6" />
+
+    <TextView
+        android:id="@+id/widgetLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="sec left today"
+        android:textSize="11sp"
+        android:textColor="#DDFFFFFF"
+        android:letterSpacing="0.12"
+        android:shadowColor="#AA000000"
+        android:shadowDx="0"
+        android:shadowDy="1"
+        android:shadowRadius="4" />
+
+</LinearLayout>

@@ -4,17 +4,6 @@
     android:layout_height="match_parent"
     android:background="#4A7C6F">
 
-    <!-- Top-right star button -->
-    <ImageView
-        android:id="@+id/starButton"
-        android:layout_width="48dp"
-        android:layout_height="48dp"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_margin="16dp"
-        android:src="@drawable/ic_star"
-        android:background="@drawable/bg_star_circle"
-        android:padding="10dp" />
 
     <!-- Center block: big seconds + label -->
     <LinearLayout
@@ -109,5 +98,21 @@
                 android:lineSpacingExtra="2dp" />
         </LinearLayout>
     </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/developerInfoButton"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/bg_developer_button"
+        android:contentDescription="@string/developer_info"
+        android:padding="9dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_developer"
+        android:stateListAnimator="@null"
+        android:tint="#2D3B35" />
 
 </RelativeLayout>

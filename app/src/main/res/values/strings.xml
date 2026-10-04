@@ -11,4 +11,13 @@
     <string name="notification_channel_description">Shows seconds remaining in the day</string>
     <string name="notification_title">My Timer</string>
     <string name="notification_subtext">Out of %1$d seconds today</string>
+    <string name="developer_info">Developer information</string>
+    <string name="developer_dialog_title">A little hello</string>
+    <string name="developer_dialog_message">Thanks for using My Timer. Find me here:</string>
+    <string name="developer_art_description">Anime illustration of the developer</string>
+    <string name="developer_github_label">GitHub  @gulshan-pandey</string>
+    <string name="developer_linkedin_label">LinkedIn  gulshan-pandey</string>
+    <string name="github_profile_url">https://github.com/gulshan-pandey</string>
+    <string name="linkedin_profile_url">https://www.linkedin.com/in/gulshan-pandey/</string>
+    <string name="close">Close</string>
 </resources>
